@@ -12,7 +12,7 @@ numpy
 tensorflow
 ```
 Versions I have installed are
-To see full list of all installed packages go to allinsatlled.txt
+To see full list of all installed packages go to allinsatlled (https://github.com/jimhoggey/SelfdrivingcarForza/blob/main/allinstalled.txt
 ```
 tensorflow              2.6.0
 tensorflow-estimator    2.6.0
