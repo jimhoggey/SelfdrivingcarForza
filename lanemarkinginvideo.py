@@ -44,6 +44,7 @@ while True:
     # Create an empty black image
     line_image = np.zeros((masked_image.shape[0], masked_image.shape[1], 3), dtype=np.uint8)
 
+    
     for line in lines:
         for x1,y1,x2,y2 in line:
             cv2.line(line_image, (x1, y1), (x2, y2), [0, 0, 255], 20)
