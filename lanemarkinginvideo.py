@@ -8,8 +8,8 @@ import cv2
 import matplotlib.image as mpimg
 
 
-source = cv2.VideoCapture('forza1.mp4')
-#videoname = 'forzatest1.mp4'
+source = cv2.VideoCapture('forza1.mp4') #Name the file you want to read from
+
 
 while True:
 
@@ -20,9 +20,7 @@ while True:
     height = 720
     size = (width, height)
     image_c = cv2.resize(img, size, interpolation = cv2.INTER_AREA)
-    #cv2.imshow('reizise',image_c)
-    #cv2.waitKey(0)
-    #cv2.destroyAllWindows()
+   
     image_g = cv2.cvtColor(image_c, cv2.COLOR_RGB2GRAY)
     image_blurred = cv2.GaussianBlur(image_g, (7, 7), 0)
     threshold_low = 10
@@ -34,9 +32,6 @@ while True:
     mask = np.zeros_like(image_g)
     cv2.fillPoly(mask, vertices, 255)
     masked_image = cv2.bitwise_and(image_g, mask)
-    #cv2.imshow('lookingforlines',masked_image)
-    #cv2.waitKey(0)
-    #cv2.destroyAllWindows()
     masked_image = cv2.bitwise_and(image_canny, mask)
 
     rho = 2            # distance resolution in pixels
@@ -61,15 +56,11 @@ while True:
             # Resultant weighted image is calculated as follows: original_img * α + img * β + γ
             Image_with_lines = cv2.addWeighted(image_c, α, line_image, β, γ)
 
-            cv2.imshow("Live", Image_with_lines) # i need to save the Image_with_lines image to compile a video
+            cv2.imshow("Live", Image_with_lines) # I need to save the Image_with_lines image to compile a video
 
-            #cv2.VideoWriter(videoname ,0,24, size)
-
+            
             # exiting the loop
             key = cv2.waitKey(1)
             if key == ord("q"):
                 break
-                #cv2.imshow('lines',Image_with_lines)
-                #cv2.waitKey(0)
-                #cv2.destroyAllWindows()
-
+               
