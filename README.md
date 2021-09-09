@@ -12,7 +12,7 @@ Self-driving cars will continue to become increasingly popular and vital to ever
 
 This research project will explore both the method and the real-world potential of a self-driving car model trained in a video game. In simple terms, a self-driving car has to read the road markings, road signs, and other vehicles and pedestrians and make decisions based on these factors. There are a couple of different ways to approach the self-driving car problem; the first and most simple is a hard programmed set of rules that the car follows in regards to speed, overtaking and give way rules and so on, but it was quickly determined that this way of approaching the problem would limit the capability the model would work in and the lack for ‘thinking outside the box, and problem-solving” would make this approach inappropriate. So the approach I want to explore is by tackling this problem using a machine learning technique. Which has less confinement and means there might be a higher chance of the self-driving car performing safely in the real world and in untested situations. The fundamental reason and potential benefit of having a self-driving car built and trained in a simulation is the ability to change factors quickly to train for a wide range of scenarios. These factors could be the environment, speed limits and a range of road conditions.
 
-Car line detection: https://youtu.be/CgDeSIUxuko 
+
 
 For this project I will be using
 ```
