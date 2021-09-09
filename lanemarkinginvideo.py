@@ -28,7 +28,7 @@ while True:
 
     image_canny = cv2.Canny(image_blurred, threshold_low, threshold_high)
     # Visualize the region of interest
-    vertices = np.array([[(1,500),(492, 362), (720, 362), (1280,500)]], dtype=np.int32)     #outline of whereb to look for line
+    vertices = np.array([[(1,366),(1,720),(253,717),(580,320),(1027,716),(1280,720),(1278,347),(661,305)]], dtype=np.int32)   #outline of whereb to look for line (improved) 
     mask = np.zeros_like(image_g)
     cv2.fillPoly(mask, vertices, 255)
     masked_image = cv2.bitwise_and(image_g, mask)
