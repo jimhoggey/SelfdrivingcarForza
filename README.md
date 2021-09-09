@@ -1,7 +1,11 @@
-# SelfdrivingcarForza
-FynnJammerinc / Jammerinc
+## SelfdrivingcarForza
+
+<h4>FynnJammerinc / Jammerinc</h4>
+
 Portfolio: https://jammerinc.weebly.com/my-work.html 
+
 github: https://github.com/jimhoggey
+
 Youtube: https://www.youtube.com/channel/UC0686vs9T8snTpKmnE5fNMg
 
 Self-driving cars will continue to become increasingly popular and vital to everyday life. This means it is critical for self-driving cars to be of a high safety rating. In order to ensure this, my project is to create a self-driving car model that can be demonstrated and evaluated in the video game of Forza Horizon(racing game), as Forza provides lifelike factors, realistic roads, road signs, a general environment and accurate physics. The model will be able to drive itself, stay in its lane and avoid crashing.  
