@@ -1,4 +1,4 @@
-## SelfdrivingcarForza
+### SelfdrivingcarForza
 
 <h4>FynnJammerinc / Jammerinc</h4>
 
@@ -14,7 +14,7 @@ This research project will explore both the method and the real-world potential 
 
 
 
-For this project I will be using
+### For this project I will be using
 ```
 Python
 Opencv2
@@ -22,7 +22,16 @@ matplotlib
 numpy
 tensorflow
 ```
-Versions I have installed are
+## GitHub Packages used:
+
+https://github.com/uppala75/CarND-Advanced-Lane-Lines (Lane Line System)
+Really good write up, clear and works effectivly 
+
+https://github.com/Sigil-Wen/YOLO
+simple, easy to use just have to download the weights, for car and people dection
+
+
+## Versions
 To see full list of all installed packages go to allinsatlled (https://github.com/jimhoggey/SelfdrivingcarForza/blob/main/allinstalled.txt
 ```
 tensorflow              2.6.0
@@ -49,7 +58,7 @@ seaborn                 0.11.2
 ```
 
 
-Quick Overview of how the model should work.
+# Quick Overview of how the model should work.
 ![image](https://user-images.githubusercontent.com/31178932/132157438-25501fe5-f405-4192-a834-ca0222e015a3.png)
 
 A visual representation of how my model will interact with the Forza horizon game engine.
