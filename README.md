@@ -30,6 +30,13 @@ Really good write up, clear and works effectivly
 https://github.com/Sigil-Wen/YOLO
 simple, easy to use just have to download the weights, for car and people dection
 
+somtimes could not find the pickled training data as it was not allways downloaded with the git repo
+but you can download them here for the german_traffic sign benchmark, test.p, train.p and validate.p
+
+https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/test.p
+https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/train.p
+https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/validate.p
+
 
 ## Versions
 To see full list of all installed packages go to allinsatlled (https://github.com/jimhoggey/SelfdrivingcarForza/blob/main/allinstalled.txt
