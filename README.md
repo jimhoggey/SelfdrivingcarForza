@@ -2,7 +2,7 @@
 
 <h4>FynnJammerinc / Jammerinc</h4>
 
-Portfolio: https://jammerinc.weebly.com/my-work.html 
+Portfolio: www.fynnjammer.com/projects
 
 github: https://github.com/jimhoggey
 
