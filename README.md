@@ -46,6 +46,12 @@ https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/test
 https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/train.p
 https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/validate.p
 
+## To run this project
+Go to the github repos above and download the repo download this repo and run the install all shell script and run in in the terminal with 
+``` bash installall.sh ```
+this will install tensorflow and opencv and all other packsges needed. 
+open jupyer notebook and open the notebooks from the other github repos and run the project. if you would a video output in python download the advancedlinedectsys.py file from this github and past it in the same folder as the CarND-Advanced-Lane-Lines. Then run the advancedlinedectsys.py file and edit the output and input file at the bottom of the program.  
+
 
 ## Versions
 To see full list of all installed packages go to allinsatlled (https://github.com/jimhoggey/SelfdrivingcarForza/blob/main/allinstalled.txt
