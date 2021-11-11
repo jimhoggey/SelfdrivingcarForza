@@ -7,14 +7,19 @@ Portfolio: www.fynnjammer.com/projects
 github: https://github.com/jimhoggey
 
 ## Youtube:
-Long video explaining in depth: https://youtu.be/KOZXrtPuaR8 
-Shorter video project video goal and output: https://youtu.be/Jl_7BrnvueU
-None error video: https://youtu.be/u32axlrp8uU
-Connecting to forza problem logbook: https://youtu.be/gbRIlkofcc0 
+Long video explaining in depth: https://youtu.be/KOZXrtPuaR8
 
-Self-driving cars will continue to become increasingly popular and will form the future of personal transportation in everyday life. Companies like Tesla, Google and Waymo are already testing and developing this technology, making it an extremely new and unknown field of technology and research. This enticed me to approach this area of emerging technology as my project, but with a twist by using video games to act as a platform to test and develop parts of self-driving technology.   
+Shorter video project video goal and output: https://youtu.be/Jl_7BrnvueU
+
+None error video: https://youtu.be/u32axlrp8uU
+
+Connecting to forza problem logbook: https://youtu.be/gbRIlkofcc0
+  
 
 ## Overview
+
+Self-driving cars will continue to become increasingly popular and will form the future of personal transportation in everyday life. Companies like Tesla, Google and Waymo are already testing and developing this technology, making it an extremely new and unknown field of technology and research. This enticed me to approach this area of emerging technology as my project, but with a twist by using video games to act as a platform to test and develop parts of self-driving technology. 
+
 Using a video game (in this case Forza horizon 3) as a test environment. This is place where we can test and adapt the self-driving car model virtually, it also allows us to change specific parameters to evaluate how the self-driving car model adapts and behaves in different conditions, such as with a different car, different location (city, highway, offroad) and different weather conditions.
 This research project will explore both the method and the real-world potential of a self-driving car model used in a video game simulation designed to also work in the real world. This project aims to assess the viability of a self-driving car model designed to function in the real world in a simulated environment. To assess this, a prerecorded video of a car being driven in a simulated environment(Video game) will be processed and put through several algorithms designed to extract useful and potentially relevant information that would assist a future full self driving car model to make accurate decisions based on these extractions.
 
