@@ -6,13 +6,20 @@ Portfolio: www.fynnjammer.com/projects
 
 github: https://github.com/jimhoggey
 
-Youtube: https://www.youtube.com/channel/UC0686vs9T8snTpKmnE5fNMg
+## Youtube:
+Long video explaining in depth: https://youtu.be/KOZXrtPuaR8 
+Shorter video project video goal and output: https://youtu.be/Jl_7BrnvueU
+None error video: https://youtu.be/u32axlrp8uU
+Connecting to forza problem logbook: https://youtu.be/gbRIlkofcc0 
 
-Self-driving cars will continue to become increasingly popular and vital to everyday life. This means it is critical for self-driving cars to be of a high safety rating. In order to ensure this, my project is to create a self-driving car model that can be demonstrated and evaluated in the video game of Forza Horizon(racing game), as Forza provides lifelike factors, realistic roads, road signs, a general environment and accurate physics. The model will be able to drive itself, stay in its lane and avoid crashing.  
+Self-driving cars will continue to become increasingly popular and will form the future of personal transportation in everyday life. Companies like Tesla, Google and Waymo are already testing and developing this technology, making it an extremely new and unknown field of technology and research. This enticed me to approach this area of emerging technology as my project, but with a twist by using video games to act as a platform to test and develop parts of self-driving technology.   
 
-This research project will explore both the method and the real-world potential of a self-driving car model trained in a video game. In simple terms, a self-driving car has to read the road markings, road signs, and other vehicles and pedestrians and make decisions based on these factors. There are a couple of different ways to approach the self-driving car problem; the first and most simple is a hard programmed set of rules that the car follows in regards to speed, overtaking and give way rules and so on, but it was quickly determined that this way of approaching the problem would limit the capability the model would work in and the lack for ‘thinking outside the box, and problem-solving” would make this approach inappropriate. So the approach I want to explore is by tackling this problem using a machine learning technique. Which has less confinement and means there might be a higher chance of the self-driving car performing safely in the real world and in untested situations. The fundamental reason and potential benefit of having a self-driving car built and trained in a simulation is the ability to change factors quickly to train for a wide range of scenarios. These factors could be the environment, speed limits and a range of road conditions.
+## Overview
+Using a video game (in this case Forza horizon 3) as a test environment. This is place where we can test and adapt the self-driving car model virtually, it also allows us to change specific parameters to evaluate how the self-driving car model adapts and behaves in different conditions, such as with a different car, different location (city, highway, offroad) and different weather conditions.
+This research project will explore both the method and the real-world potential of a self-driving car model used in a video game simulation designed to also work in the real world. This project aims to assess the viability of a self-driving car model designed to function in the real world in a simulated environment. To assess this, a prerecorded video of a car being driven in a simulated environment(Video game) will be processed and put through several algorithms designed to extract useful and potentially relevant information that would assist a future full self driving car model to make accurate decisions based on these extractions.
 
-
+## Aim of this project
+Is to accurately extract and identify features, from a prerecorded video in a simulated environment. These features should include active tracking of lane markings, other vehicles, pedestrians, traffic lights and speed signs. 
 
 ### For this project I will be using
 ```
@@ -22,16 +29,18 @@ matplotlib
 numpy
 tensorflow
 ```
-## GitHub Packages used:
+## Packages used:
+
+https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/ (udamy course) 
+for frist gen line dection system and to learn about the basics (very good to get started)
 
 https://github.com/uppala75/CarND-Advanced-Lane-Lines (Lane Line System)
 Really good write up, clear and works effectivly 
 
-https://github.com/Sigil-Wen/YOLO
+https://github.com/Sigil-Wen/YOLO (yolo)
 simple, easy to use just have to download the weights, for car and people dection
 
-somtimes could not find the pickled training data as it was not allways downloaded with the git repo
-but you can download them here for the german_traffic sign benchmark, test.p, train.p and validate.p
+download data german_traffic sign benchmark, test.p, train.p and validate.p
 
 https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/test.p
 https://s3.amazonaws.com/udacity-sdc/datasets/german_traffic_sign_benchmark/train.p
@@ -71,15 +80,16 @@ seaborn                 0.11.2
 A visual representation of how my model will interact with the Forza horizon game engine.
 ![image](https://user-images.githubusercontent.com/31178932/132157516-dd2e1aa5-8c7d-47cb-b9ef-1a010e3af4e2.png)
 
-Full project: Full self drivning car that also controls the car in Forza Horizon 
-Project 1: get lane detection, vehicle detecion to work on a video file 
-Project 2: use what we learnt in Project 1 and use a live video import captured from game, use Neat neural network to assign rewards for correct driving to train network. Have hard rules such as car crashes -10 rewards and car stay in lane to +1 reward for example.
+## Full project: Full self drivning car that also controls the car in Forza Horizon 
+Project 1: get lane detection, vehicle detecion to work on a video file feature extraction
+
+Project (future project): use what we learnt in Project 1 and use a live video import captured from game, use Neat neural network to assign rewards for correct driving to train network. Have hard rules such as car crashes -10 rewards and car stay in lane to +1 reward for example.
 
 Goal/ things to do outline:
 
-(currently working on)
-1.  Read lane marking from video file.
-      Complete Car line detection video: https://youtu.be/CgDeSIUxuko 
-  
-2. Vehicle dection using SVM image recognition
-
+1. simple laine dection 
+2. advanced line dection
+3. svm car dection (did't work)
+4. yolo car and people dection 
+5. set forza game as input for system 
+6. control forza with keyboard input
