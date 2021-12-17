@@ -37,7 +37,7 @@ tensorflow
 ## Packages used:
 
 https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/ (udamy course) 
-for frist gen line dection system and to learn about the basics (very good to get started)
+for first gen line dection system and to learn about the basics (very good to get started)
 
 https://github.com/uppala75/CarND-Advanced-Lane-Lines (Lane Line System)
 Really good write up, clear and works effectivly 
