@@ -34,7 +34,7 @@ matplotlib
 numpy
 tensorflow
 ```
-## Packages used:
+## Packages/code used:
 
 https://www.udemy.com/course/autonomous-cars-deep-learning-and-computer-vision-in-python/ (udamy course) 
 for first gen line dection system and to learn about the basics (very good to get started)
@@ -91,6 +91,18 @@ seaborn                 0.11.2
 A visual representation of how my model will interact with the Forza horizon game engine.
 ![image](https://user-images.githubusercontent.com/31178932/132157516-dd2e1aa5-8c7d-47cb-b9ef-1a010e3af4e2.png)
 
+### Extract Road Markings.
+sliding window approach
+With the use of opencv2 and a range of image filters, such as a magnitude threshold filter, sobel x/y filter and a colour threshold. We can highlight the high contrast change in the lane line on the black road. A sliding window search function to narrow down the search window and searches where theres a high probability where the next line might be. To minimise confusion and false positive results.
+
+### Extract other vehicles and people and traffic light.
+YOLO
+we use YOLO (you only look once) with a huge training set that was pickled so its easy for us to use. YOLO uses a a convolutional neural network, that searches the frame for possible matches, applies bounding boxes and categorizes them. Anything lower then 50% will be disregarded.
+
+### Extract road signs.
+HOG, SVM
+We use hog features that creates a profile for how a road sign would look like and scans over the frame to find a similar match. This approach is overall a bit slower and less accurate. Hopefully to upgrade this method with a YOLO approach.
+
 ## Full project: Full self drivning car that also controls the car in Forza Horizon 
 Project 1: get lane detection, vehicle detecion to work on a video file feature extraction
 
@@ -104,3 +116,7 @@ Goal/ things to do outline:
 4. yolo car and people dection 
 5. set forza game as input for system 
 6. control forza with keyboard input
+
+##Full Report on feature extraction from a video game.
+
+[self driving car Forza Horizion Final.pdf](https://github.com/jimhoggey/SelfdrivingcarForza/files/8075330/self.driving.car.Forza.Horizion.Final.pdf)
